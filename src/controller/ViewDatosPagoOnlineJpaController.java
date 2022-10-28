@@ -19,7 +19,7 @@ import javax.persistence.criteria.Root;
 
 /**
  *
- * @author EGLOBALT
+ * @author gemacron
  */
 public class ViewDatosPagoOnlineJpaController implements Serializable {
 

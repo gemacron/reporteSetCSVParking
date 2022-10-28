@@ -7,9 +7,7 @@ package controller;
 import controller.exceptions.NonexistentEntityException;
 import controller.exceptions.PreexistingEntityException;
 import entidades.ViewDatosDetallePagoOnline;
-import entidades.ViewDatosPagoOnline;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -21,7 +19,7 @@ import javax.persistence.criteria.Root;
 
 /**
  *
- * @author EGLOBALT
+ * @author gemacron
  */
 public class ViewDatosDetallePagoOnlineJpaController implements Serializable {
 

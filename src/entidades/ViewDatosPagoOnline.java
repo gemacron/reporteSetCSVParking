@@ -19,7 +19,7 @@ import javax.persistence.TemporalType;
 
 /**
  *
- * @author EGLOBALT
+ * @author gemacron
  */
 @Entity
 @Table(name = "View_DatosPagoOnline")

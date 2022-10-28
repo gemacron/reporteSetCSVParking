@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author EGLOBALT
+ * @author gemacron
  */
 public class ContSmartParking {
     /**
