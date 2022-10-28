@@ -33,7 +33,7 @@ import javax.swing.filechooser.FileSystemView;
 
 /**
  *
- * @author EGLOBALT
+ * @author gemacron
  */
 public final class ExportDataForCont extends javax.swing.JFrame {
 
