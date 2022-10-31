@@ -331,7 +331,7 @@ public final class ExportDataForCont extends javax.swing.JFrame {
         } else {
             cadena_a = cadena_c;
         }
-        System.out.println("Ruc Del Cliente:" + cadena_a);
+//        System.out.println("Ruc Del Cliente:" + cadena_a);
         return cadena_a;
     }
 
