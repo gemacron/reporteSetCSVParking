@@ -206,7 +206,7 @@ public final class ExportDataForCont extends javax.swing.JFrame {
                                 + dp.getValorPago().longValueExact() + "", "0", "0", "" + dp.getValorPago().longValueExact() + "", "1", "N", "S", "N", "N", "", ""});
                         } else {
                             data.add(new String[]{"1", "15", ""
-                                + nroRucCliente + "", "" + dp.getNombreCliente() + "", "109", ""
+                                + "x", "SIN NOMBRE", "109", ""
                                 + fechformtt + "", "" + vddpo.getTimbrado() + "", "" + factura + "", ""
                                 + dp.getValorPago().longValueExact() + "", "0", "0", "" + dp.getValorPago().longValueExact() + "", "1", "N", "S", "N", "N", "", ""});
                         }
@@ -216,7 +216,7 @@ public final class ExportDataForCont extends javax.swing.JFrame {
                             String mess = "";
                             Formatter obj = new Formatter();
                             mess = String.valueOf(obj.format("%02d", Integer.valueOf(mes.toString())));
-                            String filename = "" + Desktop + "\\80120488_REG_" + mess + "" + ano + "_V0001_" + contFileName + "" + dp.getModulo() + ".csv";
+                            String filename = "" + Desktop + "\\80120488_REG_" + mess + "" + ano + "_V0001" + contFileName + ".csv";
                             File file = new File(filename);
                             // create FileWriter object with file as parameter
                             FileWriter outputfile = new FileWriter(file);
@@ -318,7 +318,7 @@ public final class ExportDataForCont extends javax.swing.JFrame {
         cadena_a = cadena_a.replaceAll(" ", "");
         cadena_b = cadena_b.replace(" ", "");
         Formatter obj = new Formatter();
-        formated = String.valueOf(obj.format("%06d", Integer.valueOf(cadena_a)));
+        formated = String.valueOf(obj.format("%07d", Integer.valueOf(cadena_a)));
         return cadena_b + formated;
     }
 
